@@ -1,7 +1,10 @@
 <header>
-	<div class="content-wrapper">
+	<div class="content-wrapper div-table">
 		<div id="header-logo">
 			<a href="index.php"><img src="assets/images/capcium-logo.svg" alt="Capcium Inc."></a>
+		</div>
+		<div id="lang-button">
+			<a href="javascript:void(0);">FR</a>
 		</div>
 		<nav>
 			<ul>
@@ -11,8 +14,5 @@
 				<li><a href="javascript:void(0);">News</a></li>
 			</ul>
 		</nav>
-		<div id="lang-button">
-			<a href="">FR</a>
-		</div>
 	</div>
 </header>

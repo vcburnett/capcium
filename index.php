@@ -18,21 +18,29 @@
 	<div id="wrapper">
 		<!-- HERO -->
 		<section id="hero">
-
+			<div class="hero-content">
+				<h1>Transforming the Cannabis Industry</h1>
+				<p>Softgel encapsulation is tricky to master, good thing we’ve done it for you. Capcium is the choice for cannabis encapsulation.</p>
+				<a href="javascript:void(0);" class="cta-1">Contact Us</a>
+				<a href="javascript:void(0);" class="cta-2">Learn more</a>
+			</div>
+			<a href="javascript:void(0);" id="btn-down"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 34 34" style="enable-background:new 0 0 34 34;" xml:space="preserve"><path d="M17,29.56c-0.54,0-1.08-0.21-1.49-0.62L0.62,14.05c-0.83-0.82-0.83-2.16,0-2.99c0.82-0.83,2.16-0.83,2.99,0L17,24.46l13.39-13.39c0.83-0.83,2.16-0.83,2.99,0c0.83,0.82,0.83,2.16,0,2.99L18.49,28.94C18.08,29.35,17.54,29.56,17,29.56z"/></svg></a>
+			<div id="hero-bottom">
+				<img src="assets/images/hero-bottom.svg">
+			</div>
 		</section>
 
 		<!-- Softgel Encapsulation -->
 		<section class="content">
 			<div class="content-wrapper">
 				<div class="main-text-wrap text-center">
-					<h1>The Softgel Encapsulation Experts</h1>
 					<h2>The Softgel Encapsulation Experts</h2>
 					<p>Leveraging over 20 years of experience, Capcium is a best-in-class team of softgel encapsulation professionals.</p>
 				</div>
 				<div class="full-wrap">
 					<div class="content-left">
 						<div class="image-container">
-							<img src="" alt="Capcium Inc. - Encapsulation experts">
+							<img src="assets/images/-placeholders/img-example-1.jpg" alt="Capcium Inc. - Encapsulation experts">
 						</div>
 					</div>
 					<div class="content-right">
@@ -45,6 +53,9 @@
 		</section>
 
 		<!-- What We Do -->
+		<div class="services-edge">
+			<img src="assets/images/services-edge-top.svg">
+		</div>
 		<section class="content" id="sec-what-we-do">
 			<div class="content-wrapper">
 				<div class="left-third">
@@ -57,42 +68,42 @@
 					<div class="services-wrap">
 						<div class="service">
 							<div class="icon">
-								<img src="" alt="Cannabis">
+								<img src="assets/images/-placeholders/icon-example.svg" alt="Cannabis">
 							</div>
 							<h3>Cannabis</h3>
 							<p>Softgels are a simple and efficient dosage method for cannabis extracts. Our high-quality encapsulation process ensures the perfect dose every time.</p>
 						</div>
 						<div class="service">
 							<div class="icon">
-								<img src="" alt="Pharmaceutical/OTC">
+								<img src="assets/images/-placeholders/icon-example.svg" alt="Pharmaceutical/OTC">
 							</div>
 							<h3>Pharmaceutical/OTC</h3>
 							<p>Our precision-focused, pharmaceutical grade manufacturing operation supports the specific needs of our pharmaceutical customers and allows them to quickly respond to their ever-evolving markets.</p>
 						</div>
 						<div class="service">
 							<div class="icon">
-								<img src="" alt="Nutraceutical">
+								<img src="assets/images/-placeholders/icon-example.svg" alt="Nutraceutical">
 							</div>
 							<h3>Nutraceutical</h3>
 							<p>Whether it’s a vitamin, mineral or oil, we’ll take on the daunting task of encapsulation and help you get it to market quickly.</p>
 						</div>
 						<div class="service">
 							<div class="icon">
-								<img src="" alt="Formulation & Process Development">
+								<img src="assets/images/-placeholders/icon-example.svg" alt="Formulation & Process Development">
 							</div>
 							<h3>Formulation & Process Development</h3>
 							<p>With a full range of services available, we ensure that your packaging reflects your brand and meets your customer’s needs.</p>
 						</div>
 						<div class="service">
 							<div class="icon">
-								<img src="" alt="Commercial Batches">
+								<img src="assets/images/-placeholders/icon-example.svg" alt="Commercial Batches">
 							</div>
 							<h3>Commercial Batches</h3>
 							<p>From small batch to fully commercialized production, we are equipped to handle projects of any size.</p>
 						</div>
 						<div class="service">
 							<div class="icon">
-								<img src="" alt="Packaging & Labelling">
+								<img src="assets/images/-placeholders/icon-example.svg" alt="Packaging & Labelling">
 							</div>
 							<h3>Packaging & Labelling</h3>
 							<p>With a full range of services available, we ensure that your packaging reflects your brand and meets your customer’s needs.</p>
@@ -102,7 +113,7 @@
 
 				<div id="mid-contact-us">
 					<div id="mid-contact-us-thumb">
-						<img src="javascript:void(0);" alt="Contact us to start your project">
+						<img src="assets/images/-placeholders/img-example-1.jpg" alt="Contact us to start your project">
 					</div>
 					<div id="mid-contact-us-content">
 						<div id="mid-contact-us-text">
@@ -114,6 +125,9 @@
 				</div>
 			</div>
 		</section>
+		<div class="services-edge">
+			<img src="assets/images/services-edge-bottom.svg">
+		</div>
 
 		<!-- Who We Work With -->
 		<section class="content" id="sec-work-with">
@@ -121,22 +135,22 @@
 				<h4>Who We Work With</h4>
 				<div class="work-with-wrap">
 					<div class="work-with-logo">
-						<img src="javascript:void(0);" alt="partner name">
+						<img src="assets/images/-placeholders/img-example-1.jpg" alt="Partner Name">
 					</div>
 					<div class="work-with-logo">
-						<img src="javascript:void(0);" alt="partner name">
+						<img src="assets/images/-placeholders/img-example-1.jpg" alt="Partner Name">
 					</div>
 					<div class="work-with-logo">
-						<img src="javascript:void(0);" alt="partner name">
+						<img src="assets/images/-placeholders/img-example-1.jpg" alt="Partner Name">
 					</div>
 					<div class="work-with-logo">
-						<img src="javascript:void(0);" alt="partner name">
+						<img src="assets/images/-placeholders/img-example-1.jpg" alt="Partner Name">
 					</div>
 					<div class="work-with-logo">
-						<img src="javascript:void(0);" alt="partner name">
+						<img src="assets/images/-placeholders/img-example-1.jpg" alt="Partner Name">
 					</div>
 					<div class="work-with-logo">
-						<img src="javascript:void(0);" alt="partner name">
+						<img src="assets/images/-placeholders/img-example-1.jpg" alt="Partner Name">
 					</div>
 				</div>
 				<a href="javascript:void(0);" class="cta-3">View our partners</a>
@@ -148,43 +162,52 @@
 			<div id="news-wrap">
 				<div class="article-container">
 					<div class="article-thumb">
-						<img src="javascript:void(0);" alt="title of article">
+						<img src="assets/images/-placeholders/news-image-example.jpg" alt="title of article">
 					</div>
-					<p class="article-title"></p>
-					<p class="article-date"></p>
-					<p></p>
-					<a href="javascript:void(0);">Read more</a>
+					<div class="article-content">
+						<p class="article-title">Aurora Cannabis Enters Into Global Softgel Business with Capcium Inc.</p>
+						<p class="article-date">October 12,2018</p>
+						<p>Donec pulvinar mauris sapien, id dictum eros commodo sit amet. Nunc gravida turpis sed iaculis elementum.</p>
+						<a href="javascript:void(0);">Read more</a>
+					</div>
 				</div>
 				<div class="article-container">
 					<div class="article-thumb">
-						<img src="javascript:void(0);" alt="title of article">
+						<img src="assets/images/-placeholders/news-image-example.jpg" alt="title of article">
 					</div>
-					<p class="article-title"></p>
-					<p class="article-date"></p>
-					<p></p>
-					<a href="javascript:void(0);">Read more</a>
+					<div class="article-content">
+						<p class="article-title">Aurora Cannabis Enters Into Global Softgel Business with Capcium Inc.</p>
+						<p class="article-date">October 12,2018</p>
+						<p>Donec pulvinar mauris sapien, id dictum eros commodo sit amet. Nunc gravida turpis sed iaculis elementum.</p>
+						<a href="javascript:void(0);">Read more</a>
+					</div>
 				</div>
 				<div class="article-container">
 					<div class="article-thumb">
-						<img src="javascript:void(0);" alt="title of article">
+						<img src="assets/images/-placeholders/news-image-example.jpg" alt="title of article">
 					</div>
-					<p class="article-title"></p>
-					<p class="article-date"></p>
-					<p></p>
-					<a href="javascript:void(0);">Read more</a>
+					<div class="article-content">
+						<p class="article-title">Aurora Cannabis Enters Into Global Softgel Business with Capcium Inc.</p>
+						<p class="article-date">October 12,2018</p>
+						<p>Donec pulvinar mauris sapien, id dictum eros commodo sit amet. Nunc gravida turpis sed iaculis elementum.</p>
+						<a href="javascript:void(0);">Read more</a>
+					</div>
 				</div>
 				<div class="article-container">
 					<div class="article-thumb">
-						<img src="javascript:void(0);" alt="title of article">
+						<img src="assets/images/-placeholders/news-image-example.jpg" alt="title of article">
 					</div>
-					<p class="article-title"></p>
-					<p class="article-date"></p>
-					<p></p>
-					<a href="javascript:void(0);">Read more</a>
+					<div class="article-content">
+						<p class="article-title">Aurora Cannabis Enters Into Global Softgel Business with Capcium Inc.</p>
+						<p class="article-date">October 12,2018</p>
+						<p>Donec pulvinar mauris sapien, id dictum eros commodo sit amet. Nunc gravida turpis sed iaculis elementum.</p>
+						<a href="javascript:void(0);">Read more</a>
+					</div>
 				</div>
 			</div>
 			<div class="content-wrapper">
-
+				<h2>News & Events</h2>
+				<a href="javascript:void(0);" class="cta-2">View all articles</a>
 			</div>
 		</section>
 	</div>
