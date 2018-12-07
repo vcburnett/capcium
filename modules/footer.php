@@ -1,11 +1,17 @@
 <footer>
 	<div id="ft-main-content">
 		<div class="content-wrapper">
+			<div id="ft-right">
+				<form>
+					<input type="submit" value="Subscribe">
+					<input type="text" placeholder="Your email">
+					<label>Stay informed</label>
+				</form>
+			</div>
 			<div id="ft-left">
 				<div id="ft-logo">
-					<a href="index.php" id="ft-logo"><img src="assets/images/capcium-logo.svg" alt="Capcium Inc."></a>
+					<a href="index.php" id="ft-logo-wrap"><img src="assets/images/capcium-logo.svg" alt="Capcium Inc."></a>
 				</div>
-				<hr>
 				<div id="ft-menu">
 					<nav class="ft-menu-col">
 						<ul>
@@ -30,13 +36,6 @@
 						</ul>
 					</nav>
 				</div>
-			</div>
-			<div id="ft-right">
-				<form>
-					<input type="submit" value="Subscribe">
-					<input type="text" placeholder="Your email">
-					<label>Stay informed</label>
-				</form>
 			</div>
 		</div>
 	</div>
