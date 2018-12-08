@@ -32,7 +32,7 @@
 					</nav>
 					<nav class="ft-menu-col">
 						<ul>
-							<li><a href="javascript:void(0);">Contact us</a></li>
+							<li><a href="javascript:void(0);" class="contact-btn">Contact us</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -43,3 +43,9 @@
 		<p>&copy;2018 Capcium Inc. All rights reserved.</p>
 	</div>
 </footer>
+
+
+<!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script type="text/javascript" src="assets/js/scripts.js"></script>

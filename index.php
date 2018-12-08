@@ -9,6 +9,7 @@
 
 <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Raleway:600" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -23,7 +24,7 @@
 					<div class="hero-slide-left">
 						<h1>Transforming the Cannabis Industry</h1>
 						<p>Softgel encapsulation is tricky to master, good thing we’ve done it for you. Capcium is the choice for cannabis encapsulation.</p>
-						<a href="javascript:void(0);" class="cta-1">Contact Us</a>
+						<a href="javascript:void(0);" class="cta-1 contact-btn">Contact Us</a>
 						<a href="javascript:void(0);" class="cta-2">Learn more</a>
 					</div>
 					<div class="hero-slide-right">
@@ -31,14 +32,14 @@
 					</div>
 				</div>
 			</div>
-			<a href="javascript:void(0);" id="btn-down"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 34 34" style="enable-background:new 0 0 34 34;" xml:space="preserve"><path d="M17,29.56c-0.54,0-1.08-0.21-1.49-0.62L0.62,14.05c-0.83-0.82-0.83-2.16,0-2.99c0.82-0.83,2.16-0.83,2.99,0L17,24.46l13.39-13.39c0.83-0.83,2.16-0.83,2.99,0c0.83,0.82,0.83,2.16,0,2.99L18.49,28.94C18.08,29.35,17.54,29.56,17,29.56z"/></svg></a>
+			<a href="#sec-first-content" id="btn-down" class="scroll"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 34 34" style="enable-background:new 0 0 34 34;" xml:space="preserve"><path d="M17,29.56c-0.54,0-1.08-0.21-1.49-0.62L0.62,14.05c-0.83-0.82-0.83-2.16,0-2.99c0.82-0.83,2.16-0.83,2.99,0L17,24.46l13.39-13.39c0.83-0.83,2.16-0.83,2.99,0c0.83,0.82,0.83,2.16,0,2.99L18.49,28.94C18.08,29.35,17.54,29.56,17,29.56z"/></svg></a>
 			<div id="hero-bottom"><img src="assets/images/hero-bottom.svg"></div>
 			<div id="hero-fluid-top"><img src="assets/images/fluids-top.svg"></div>
 			<div id="hero-fluid-bottom"><img src="assets/images/fluids-bottom.svg"></div>
 		</section>
 
 		<!-- Softgel Encapsulation -->
-		<section class="content">
+		<section class="content" id="sec-first-content">
 			<div class="content-wrapper">
 				<div class="main-text-wrap text-center">
 					<h2>The Softgel Encapsulation Experts</h2>
@@ -127,7 +128,7 @@
 							<p id="mid-contact-us-title">Let's talk about your project</p>
 							<p>Whether you’ve got a new idea, or are ready to encapsulate your product, we’re here to help.</p>
 						</div>
-						<a href="javascript:void(0);" class="cta-1-white">Contact Us</a>
+						<a href="javascript:void(0);" class="cta-1-white contact-btn">Contact Us</a>
 					</div>
 				</div>
 			</div>
@@ -166,7 +167,7 @@
 
 		<!-- News -->
 		<section class="content" id="sec-news">
-			<div id="news-wrap">
+			<div id="news-wrap" class="mobile-off">
 				<div class="article-container">
 					<div class="article-thumb">
 						<img src="assets/images/-placeholders/news-image-example.jpg" alt="title of article">
@@ -212,8 +213,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="content-wrapper">
+			<div class="content-wrapper" id="news-metas">
 				<h2>News & Events</h2>
+				<p class="mobile-only">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
 				<a href="javascript:void(0);" class="cta-2">View all articles</a>
 			</div>
 		</section>
