@@ -32,11 +32,12 @@
 					</div>
 				</div>
 			</div>
-			<a href="#sec-first-content" id="btn-down" class="scroll"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 34 34" style="enable-background:new 0 0 34 34;" xml:space="preserve"><path d="M17,29.56c-0.54,0-1.08-0.21-1.49-0.62L0.62,14.05c-0.83-0.82-0.83-2.16,0-2.99c0.82-0.83,2.16-0.83,2.99,0L17,24.46l13.39-13.39c0.83-0.83,2.16-0.83,2.99,0c0.83,0.82,0.83,2.16,0,2.99L18.49,28.94C18.08,29.35,17.54,29.56,17,29.56z"/></svg></a>
 			<div id="hero-bottom"><img src="assets/images/hero-bottom.svg"></div>
 			<div id="hero-fluid-top"><img src="assets/images/fluids-top.svg"></div>
 			<div id="hero-fluid-bottom"><img src="assets/images/fluids-bottom.svg"></div>
 		</section>
+
+		<a href="#sec-first-content" id="btn-down" class="scroll"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 34 34" style="enable-background:new 0 0 34 34;" xml:space="preserve"><path d="M17,29.56c-0.54,0-1.08-0.21-1.49-0.62L0.62,14.05c-0.83-0.82-0.83-2.16,0-2.99c0.82-0.83,2.16-0.83,2.99,0L17,24.46l13.39-13.39c0.83-0.83,2.16-0.83,2.99,0c0.83,0.82,0.83,2.16,0,2.99L18.49,28.94C18.08,29.35,17.54,29.56,17,29.56z"/></svg></a>
 
 		<!-- Softgel Encapsulation -->
 		<section class="content" id="sec-first-content">

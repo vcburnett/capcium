@@ -14,10 +14,29 @@ $( document ).ready(function() {
 	var btnContact = $("a.contact-btn");
 	var btnContactClose = $("a#contact-us-close-btn");
 
+	var btnBurger = $("#btn-main-menu-mobile");
+	var MMWrapper = $("#main-menu-wrapper");
+	var MMlinks = $("#main-menu a");
+
+	function menuOff() {
+		btnBurger.removeClass("btn-brg-clicked");
+		MMWrapper.fadeOut();
+	}
+
 	function updateElements() {
 		console.log("Working!");
 
-		// Home Page update sections
+		var browserW = browserWindow.width();
+
+		// Main Menu update
+		if (btnBurger.hasClass("btn-brg-clicked") && browserW > 640) {
+			btnBurger.removeClass("btn-brg-clicked");
+		}
+		if (!btnBurger.hasClass("btn-brg-clicked") && browserW <= 640) {
+			MMWrapper.css("display", "none");
+		} else {
+			MMWrapper.css("display", "block");
+		}
 		
 	}
 
@@ -42,6 +61,21 @@ $( document ).ready(function() {
 	});
 	btnContactClose.on("click", function() {
 		contactUs.fadeOut();
+	});
+
+	btnBurger.on("click", function() {
+		if ($(this).hasClass("btn-brg-clicked")) {
+			$(this).removeClass("btn-brg-clicked");
+			MMWrapper.fadeOut();
+		} else {
+			$(this).addClass("btn-brg-clicked");
+			MMWrapper.fadeIn("fast");
+		}
+	});
+	MMlinks.on("click", function() {
+		if (btnBurger.hasClass("btn-brg-clicked")) {
+			menuOff()
+		}
 	});
 
 	// Scroll links
