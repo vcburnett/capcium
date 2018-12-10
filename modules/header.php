@@ -1,5 +1,5 @@
-<section id="contact-us" class="">
-	<a href="javascript:void(0);" id="contact-us-close-btn"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve"><path d="M38.95,35.42c0.98,0.98,0.98,2.56,0,3.54c-0.49,0.49-1.13,0.73-1.77,0.73s-1.28-0.24-1.77-0.73L20,23.54L4.58,38.95c-0.49,0.49-1.13,0.73-1.77,0.73s-1.28-0.24-1.77-0.73c-0.98-0.98-0.98-2.56,0-3.54L16.46,20L1.05,4.58c-0.98-0.98-0.98-2.56,0-3.54c0.98-0.98,2.56-0.98,3.54,0L20,16.46L35.42,1.05c0.98-0.98,2.56-0.98,3.54,0c0.98,0.98,0.98,2.56,0,3.54L23.54,20L38.95,35.42z"/></svg></a>
+<section id="contact-us">
+	<a href="javascript:void(0);" id="contact-us-close-btn" class="btn-contact-close"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xml:space="preserve"><path d="M38.95,35.42c0.98,0.98,0.98,2.56,0,3.54c-0.49,0.49-1.13,0.73-1.77,0.73s-1.28-0.24-1.77-0.73L20,23.54L4.58,38.95c-0.49,0.49-1.13,0.73-1.77,0.73s-1.28-0.24-1.77-0.73c-0.98-0.98-0.98-2.56,0-3.54L16.46,20L1.05,4.58c-0.98-0.98-0.98-2.56,0-3.54c0.98-0.98,2.56-0.98,3.54,0L20,16.46L35.42,1.05c0.98-0.98,2.56-0.98,3.54,0c0.98,0.98,0.98,2.56,0,3.54L23.54,20L38.95,35.42z"/></svg></a>
 	<div id="contact-us-logo">
 		<img src="assets/images/capcium-logo.svg" alt="Capcoim Inc. - Softgel Exports">
 	</div>
@@ -11,16 +11,16 @@
 				<input type="text" placeholder="Name">
 				<input type="email" placeholder="Email">
 				<input type="text" placeholder="Company">
-				<input type="text" placeholder="Country">
-				<input type="text" placeholder="City">
-				<input type="text" placeholder="Province">
+				<input type="text" placeholder="Country" class="half-input">
+				<input type="text" placeholder="Province" class="half-input">
+				<input type="text" placeholder="City" class="half-input">
 				<select placeholder="How can we help you?">
 					<option value="Cannabis">Cannabis services</option>
 					<option value="Pharmaceutical">Pharmaceutical services</option>
 					<option value="Nutraceutical">Nutraceutical services</option>
 					<option value="Other">Other</option>
 				</select>
-				<textarea placeholder="Message"></textarea>
+				<textarea placeholder="Message" rows="4"></textarea>
 				<input type="Submit">
 				<a href="javascript:void(0);" class="contact-us-close-btn">Cancel</a>
 			</form>
@@ -64,9 +64,9 @@
 				<a href="javascript:void(0);">FR</a>
 			</div>
 			<nav id="main-menu"><ul>
-					<li><a href="javascript:void(0);">Who We Are</a></li>
+					<li><a href="who-we-are.php">Who We Are</a></li>
 					<li><a href="#sec-what-we-do" class="scroll">What We Do</a></li>
-					<li><a href="javascript:void(0);">Partners</a></li>
+					<li><a href="partners.php">Partners</a></li>
 					<li><a href="#sec-news" class="scroll">News</a></li>
 					<li><a href="javascript:void(0);" class="contact-btn menu-item-scroll">Contact Us</a>
 				</ul>

@@ -8,11 +8,13 @@ $( document ).ready(function() {
 	var browserH = browserWindow.height();
 	var browserW = browserWindow.width();
 
+	var body = $("body");
+
 	var header = $("header");
 
 	var contactUs = $("#contact-us");
 	var btnContact = $("a.contact-btn");
-	var btnContactClose = $("a#contact-us-close-btn");
+	var btnContactClose = $("a.btn-contact-close");
 
 	var btnBurger = $("#btn-main-menu-mobile");
 	var MMWrapper = $("#main-menu-wrapper");
@@ -57,19 +59,34 @@ $( document ).ready(function() {
 
 	// ON CLICKS
 	btnContact.on("click", function() {
-		contactUs.fadeIn();
+		contactUs.fadeIn(400, function() {
+			body.addClass("no-scroll");
+		});
 	});
 	btnContactClose.on("click", function() {
-		contactUs.fadeOut();
+		contactUs.fadeOut(400, function() {
+			body.removeClass("no-scroll");
+		});
+	});
+	$(document).keyup(function (e) {
+		if (e.key === "Escape") {
+			if (contactUs.css("display") == "block") {
+				contactUs.fadeOut(400, function() {
+					body.removeClass("no-scroll");
+				});
+			}
+		}
 	});
 
 	btnBurger.on("click", function() {
 		if ($(this).hasClass("btn-brg-clicked")) {
 			$(this).removeClass("btn-brg-clicked");
 			MMWrapper.fadeOut();
+			body.removeClass("no-scroll");
 		} else {
 			$(this).addClass("btn-brg-clicked");
 			MMWrapper.fadeIn("fast");
+			body.addClass("no-scroll");
 		}
 	});
 	MMlinks.on("click", function() {

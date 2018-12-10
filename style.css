@@ -102,6 +102,9 @@ strong {
 	font-weight: bold;
 }
 
+.no-scroll {
+	overflow: hidden;
+}
 .mobile-only {
 	display: none !important;
 }
@@ -152,7 +155,7 @@ h1, h2, h3, h4 {
 	}
 	h3, h4 {
 		font-size: 1.15em;
-		line-height: 1.1em;
+		line-height: 1.4em;
 		margin-bottom: .5em;
 	}
 		h4 {
@@ -444,7 +447,7 @@ section {
 /* Contact Us */
 #contact-us {
 	width: 100vw;
-	min-height: 100vh;
+	height: 100vh;
 	display: block;
 	background-color: #fff;
 	position: fixed;
@@ -454,14 +457,16 @@ section {
 	margin: 0;
 	padding: 100px;
 	display: none;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 	#contact-us-close-btn {
-		width: 60px;
+		width: 50px;
 		padding: 10px;
 		display: block;
 		position: absolute;
 		top: 0;
-		right: 20px;
+		right: 0;
 	}
 		#contact-us-close-btn svg {
 			fill: #ccc;
@@ -469,12 +474,12 @@ section {
 			transition: .3s;
 		}
 		#contact-us-close-btn:hover {
-			width: 60px;
+			width: 50px;
 			padding: 10px;
 			display: block;
 			position: absolute;
 			top: 0;
-			right: 20px;
+			right: 0;
 		}
 			#contact-us-close-btn:hover svg {
 				fill: #1867a4;
@@ -498,6 +503,46 @@ section {
 			display: inline-block;
 			vertical-align: top;
 		}
+
+		form#contact-form {
+
+		}
+			form#contact-form input, form#contact-form select, form#contact-form textarea {
+				width: 100%;
+				height: 34px;
+				font-size: 1em;
+				line-height: 1.15em;
+				padding: 5px 8px;
+				background-color: #fff;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				display: block;
+				margin-bottom: 7px;
+			}
+				form#contact-form input.half-input {
+					width: 47.5%;
+					display: inline-block;
+				}
+					form#contact-form input.half-input {
+						margin-right: 1.5%;
+					}
+				form#contact-form textarea {
+					height: auto;
+					margin-bottom: 1.25em;
+				}
+				form#contact-form input[type="submit"] {
+					width: auto;
+					height: auto;
+					display: inline-block;
+					background-color: #1867a4;
+					color: #fff;
+					font-size: 1.25em;
+					line-height: 1.15em;
+					border-radius: 50px;
+					padding: 12px 50px;
+					margin: 0 1em 0 0;
+					border: none;
+				}
 
 		#contact-us-map {
 			border: 1px solid #ccc;
@@ -523,6 +568,7 @@ section {
 		font-size: .75em;
 		line-height: 1.25em;
 		color: #aaa;
+		padding-top: 4em;
 	}
 
 
@@ -912,6 +958,44 @@ a#btn-down {
 	display: block;
 }
 
+/* Inner pages */
+
+#inner-header {
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	display: block;
+	background-color: gold;
+	padding-top: 220px;
+	margin: 0;
+	position: relative;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+a#btn-down-internal {
+	width: 60px;
+	height: 60px;
+	display: block;
+	padding: 16px;
+	position: absolute;
+	left: calc(50vw - 30px);
+	top: 365px;
+	border-radius: 50%;
+	overflow: hidden;
+	background-color: #fff;
+	box-shadow: 0 3px 4px rgba(0,0,0,.4);
+	z-index: 10;
+}
+	a#btn-down-internal svg {
+		fill: #1867a4;
+	}
+		a#btn-down-internal:hover {
+			background-color: #1867a4;
+		}
+		a#btn-down-internal:hover svg {
+			fill: #fff;
+		}
+
 
 
 /* --------------- */
@@ -1010,15 +1094,21 @@ a#btn-down {
 			.hero-slide {
 				height: auto;
 			}
-				.hero-slide-left {
+				#hero-slide-1 .hero-slide-left {
 					width: 100%;
 					display: block;
-					margin-bottom: 2em;
+					padding-top: 25vh;
+					position: relative;
+					z-index: 20;
 				}
 				.hero-slide-right {
 					width: 65%;
 					display: block;
-					margin: 0 auto;
+					position: absolute;
+					top: 10vh;
+					left: 17.5%;
+					z-index: 15;
+					margin-left: 0;
 				}
 
 	a#btn-down {
@@ -1108,7 +1198,7 @@ a#btn-down {
 	}
 
 	#contact-us {
-	    padding: 50px 10px;
+	    padding: 50px 5vw;
 	    display: none;
 	}
 		#contact-us-contact-info {
@@ -1118,15 +1208,22 @@ a#btn-down {
 			width: 50px;
 			right: 0;
 		}
-		#contact-us-content-left {
+		#contact-us-content {
+			margin-top: 2.5em;
+		}
+			#contact-us-content-left {
+				width: 100%;
+				display: block;
+				margin-bottom: 2em;
+			}
+		#contact-us-content-left, #contact-us-content-right {
 			width: 100%;
 			display: block;
-			margin-bottom: 2em;
+			margin: 0 auto;
 		}
-		#contact-us-content-right {
-			width: 100%;
-			display: block;
-		}
+				form#contact-form {
+					margin: 2em 0 5em;
+				}
 
 	header, header.header-scrolled {
 		padding: .65em 0 .7em;
@@ -1217,7 +1314,7 @@ a#btn-down {
 					z-index: 20;
 				}
 					#hero-slide-1 .hero-slide-left {
-						padding-top: 220px;
+						padding-top: 37vh;
 					}
 					.hero-slide-left h1 {
 						font-size: 2em;
@@ -1240,6 +1337,7 @@ a#btn-down {
 					top: 44px;
 					left: calc(50% - 150px);
 					z-index: 15;
+					margin-left: 0;
 				}
 
 	a#btn-down {
@@ -1283,6 +1381,19 @@ a#btn-down {
 	#sec-news {
 		padding-top: 3em;
 	}
+
+	#inner-header {
+		height: 210px;
+		padding-top: 84px;
+	}
+		#inner-header h1 {
+			font-size: 1.75em;
+			line-height: 1.15em;
+			margin-bottom: .3em;
+		}
+	a#btn-down-internal {
+		top: 175px;
+	}
 }
 
 @media screen and (max-width: 374px) {
@@ -1291,13 +1402,14 @@ a#btn-down {
 	}
 
 	#hero-slide-1 .hero-slide-left {
-		padding-top: 140px;
+		padding-top: 25vh;
 	}
 
 	.hero-slide-right {
 		width: 280px;
-		top: 44px;
+		top: -20px;
 		left: calc(50% - 140px);
+		margin-left: 0;
 	}
 
 	#sec-first-content a:last-child {

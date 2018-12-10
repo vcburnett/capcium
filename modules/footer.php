@@ -15,19 +15,19 @@
 				<div id="ft-menu">
 					<nav class="ft-menu-col">
 						<ul>
-							<li><a href="javascript:void(0);">Who we are</a></li>
-							<li><a href="javascript:void(0);">Regulatory status</a></li>
-							<li><a href="javascript:void(0);">Our facility</a></li>
-							<li><a href="javascript:void(0);">Our mission</a></li>
-							<li><a href="javascript:void(0);">What we do</a></li>
-							<li><a href="javascript:void(0);">Softgels</a></li>
+							<li><a href="who-we-are.php">Who we are</a></li>
+							<li><a href="regulatory-status.php">Regulatory status</a></li>
+							<li><a href="our-facility.php">Our facility</a></li>
+							<li><a href="our-mission.php">Our mission</a></li>
+							<li><a href="what-we-do.php">What we do</a></li>
+							<li><a href="softgels.php">Softgels</a></li>
 						</ul>
 					</nav>
 					<nav class="ft-menu-col">
 						<ul>
-							<li><a href="javascript:void(0);">Partners</a></li>
-							<li><a href="javascript:void(0);">Careers</a></li>
-							<li><a href="javascript:void(0);">News</a></li>
+							<li><a href="partners.php">Partners</a></li>
+							<li><a href="careers.php">Careers</a></li>
+							<li><a href="news.php">News</a></li>
 						</ul>
 					</nav>
 					<nav class="ft-menu-col">
