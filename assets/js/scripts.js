@@ -11,6 +11,7 @@ $( document ).ready(function() {
 	var body = $("body");
 
 	var header = $("header");
+	var innerHeader = $(".inner-header");
 
 	var contactUs = $("#contact-us");
 	var btnContact = $("a.contact-btn");
@@ -49,12 +50,21 @@ $( document ).ready(function() {
 
 	// ON SCROLL
 	browserWindow.on("scroll", function() {
+
+		var scrolledAmount = $(this).scrollTop();
+
+		// Header codes
 		console.log("We are " + $(this).scrollTop() + " from the top.");
-		if($(this).scrollTop() >= 125) {
+		if(scrolledAmount >= 125) {
 			header.addClass("header-scrolled");
 		} else {
 			header.removeClass("header-scrolled");
 		}
+
+		// Paralax codes
+		console.log("We are (scrolled amount) " + scrolledAmount + " from the top.");
+		var paralax = scrolledAmount * .5;
+		innerHeader.css("background-position", "center " + paralax + "px");
 	});
 
 	// ON CLICKS
