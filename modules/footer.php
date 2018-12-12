@@ -19,6 +19,7 @@
 							<li><a href="regulatory-status.php">Regulatory status</a></li>
 							<li><a href="our-facility.php">Our facility</a></li>
 							<li><a href="our-mission.php">Our mission</a></li>
+							<li><a href="our-team.php">Our team</a></li>
 							<li><a href="what-we-do.php">What we do</a></li>
 							<li><a href="softgels.php">Softgels</a></li>
 						</ul>

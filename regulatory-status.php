@@ -36,7 +36,14 @@
 				</div>
 
 				<div class="full-wrap">
-
+					<div id="rs-icon"><img src="assets/images/-placeholders/icon-example.svg" alt="License"></div>
+					<div id="rs-text">
+						<p class="text-label">License</p>
+						<h2>Safe, High-Quality Products Every Time</h2>
+						<p>In November 2015 Capcium received its Health Canada site license to become a North American manufacturer of softgel products for the nutraceutical industry and began producing softgel capsules for nutraceutical customers in a designated GMP location.</p>
+						<p>Currently, Capcium is producing high-quality, value-added cannabis softgel capsules for the medicinal and recreational markets in Canada at our Licensed Producer partners’ facilities.</p>
+						<p>Capcium is presently filing its application for a cannabis processing license under the Access to Cannabis for Medical Purposes Regulations (ACMPR) and anticipates receiving it for the opening of our new facility.</p>
+					</div>
 				</div>
 
 				<div class="main-text-wrap">

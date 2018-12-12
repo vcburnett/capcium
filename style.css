@@ -153,6 +153,10 @@ h1, h2, h3, h4 {
 		line-height: 1.4em;
 		margin-bottom: .5em;
 	}
+		h2.h2-quote {
+			text-align: center;
+			margin: 3em auto 1.5em;
+		}
 	h3, h4 {
 		font-size: 1.15em;
 		line-height: 1.4em;
@@ -409,7 +413,9 @@ section {
 
 	.full-wrap {
 		width: 100%;
+		text-align: center;
 		display: block;
+		margin: 0 auto 3em;
 	}
 		.content-left {
 			width: 53%;
@@ -444,8 +450,9 @@ section {
 	}
 	.third-element {
 		width: 30%;
+		margin-bottom: 2em;
 	}
-		.quarter-element .icon, .third-element .icon, .profile-wrapper .icon {
+		.quarter-element .icon, .third-element .icon, .sixth-element .icon, .profile-wrapper .icon {
 			width: 140px;
 			height: 140px;
 			display: block;
@@ -457,6 +464,17 @@ section {
 			background: -webkit-linear-gradient(-45deg, #1867a4 0%,#0d8a95 74%,#0d8a95 74%); /* Chrome10-25,Safari5.1-6 */
 			background: linear-gradient(135deg, #1867a4 0%,#0d8a95 74%,#0d8a95 74%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1867a4', endColorstr='#0d8a95',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		}
+	.sixth-element {
+		width: 14%;
+		margin: 0 .5em 2em;
+		display: inline-block;
+		vertical-align: top;
+	}
+		.sixth-element .icon {
+			width: 75%;
+			height: auto;
+			margin: 0 auto 1em;
 		}
 
 .image-container {
@@ -1065,6 +1083,18 @@ a#btn-down-internal {
 #page-reg-status {
 	background-image: url("assets/images/hero-image-regulatory-status.png");
 }
+#page-our-mission {
+	background-image: url("assets/images/hero-image-our-mission.png");
+}
+#page-our-team {
+	background-image: url("assets/images/hero-image-our-team.png");
+}
+#page-softgels {
+	background-image: url("assets/images/hero-image-softgels.png");
+}
+#page-partners {
+	background-image: url("assets/images/hero-image-partners.png");
+}
 
 /* Who We Are */
 #how-it-started {
@@ -1112,6 +1142,105 @@ a#btn-down-internal {
 	color: #999;
 }
 
+/* Regulatory Status */
+.text-label {
+	font-size: .75em;
+	line-height: 1em;
+	margin: 0 0 .25em;
+	color: #999;
+}
+#rs-icon {
+	width: 300px;
+	height: 300px;
+	text-align: left;
+	padding: 50px;
+	background-color: #ddd;
+	border-radius: 50%;
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: middle;
+}
+#rs-text {
+	width: calc(100% - 340px);
+	text-align: left;
+	margin-left: 36px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/* Our team */
+.team-member-wrap {
+	width: 100%;
+	display: table;
+	margin: 0 auto 2.5em;
+}
+	.team-profile-pic {
+		width: 280px;
+		display: block;
+		border-radius: 4px;
+		overflow: hidden;
+		position: relative;
+		z-index: 5;
+		float: left;
+		clear: left;
+	}
+	.team-text {
+		width: calc(100% - 286px);
+		text-align: left;
+		left: -40px;
+		padding-top: 20px;
+		display: block;
+		position: relative;
+		z-index: 10;
+		float: right;
+		clear: right;
+	}
+		.team-text h2 {
+			margin-bottom: 0;
+		}
+		.team-text .team-role {
+			font-style: italic;
+			margin-bottom: 1.25em;
+		}
+
+	.team-member-wrap:nth-child(even) .team-profile-pic {
+		float: right;
+		clear: right;
+	}
+	.team-member-wrap:nth-child(even) .team-text {
+		text-align: right;
+		left: 0;
+		left: 40px;
+		float: left;
+		clear: left;
+	}
+
+/* Softgels */
+.softgel-image {
+	width: 100%;
+	display: block;
+	border-radius: 4px;
+	overflow: hidden;
+}
+.softgel-label {
+	font-size: .8em;
+	line-height: 1.3em;
+	font-style: italic;
+	color: #999;
+	text-align: left;
+	padding: 12px;
+}
+
+/* Partners */
+.partner-image {
+	width: 100%;
+	display: block;
+	border: 1px solid #ddd;
+}
+.partner-text {
+	text-align: left;
+	margin-top: 1em;
+}
 
 /* --------------- */
 /* RESPONSIVE CODE */
@@ -1226,6 +1355,26 @@ a#btn-down-internal {
 			display: block;
 			padding: 44px;
 		}
+
+	/* Regulatory Status */
+	#rs-icon {
+		width: 240px;
+		height: 240px;
+		padding: 40px;
+		vertical-align: top;
+	}
+	#rs-text {
+		width: calc(100% - 280px);
+		vertical-align: top;
+	}
+
+	/* Team */
+	.team-profile-pic {
+		width: 230px;
+	}
+	.team-text {
+		width: calc(100% - 236px);
+	}
 }
 
 @media screen and (max-width: 759px) {
@@ -1380,6 +1529,15 @@ a#btn-down-internal {
 			vertical-align: top;
 			padding-left: 20px;
 		}
+
+	/* Regulatory Status */
+	#rs-icon {
+		width: 200px;
+		height: 200px;
+	}
+	#rs-text {
+		width: calc(100% - 240px);
+	}
 }
 
 @media screen and (max-width: 640px) {
@@ -1592,9 +1750,31 @@ a#btn-down-internal {
 	a#btn-down-internal {
 		top: 175px;
 	}
+
+	/* Regulatory Status */
+	#rs-icon {
+		width: 50%;
+		height: auto;
+		padding: 40px;
+		margin: 0 auto 1.5em;
+		display: block;
+	}
+	#rs-text {
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+	}
+		#rs-text h2, #rs-text .text-label {
+			text-align: center;
+		}
 }
 
 @media screen and (max-width: 540px) {
+	h2.h2-quote {
+		font-size: 1.5em;
+		line-height: 1.35em;
+	}
+
 	#internal-contact-us {
 		width: 100%;
 		text-align: center;
@@ -1617,6 +1797,33 @@ a#btn-down-internal {
 		#his-right {
 			padding: 26px;
 		}
+
+	#rs-icon {
+		width: 70%;
+	}
+
+	.team-member-wrap {
+		margin-bottom: 0;
+	}
+		.team-profile-pic, .team-member-wrap:nth-child(even) .team-profile-pic {
+			width: 100%;
+			display: block;
+			float: none;
+			clear: both;
+		}
+		.team-text, .team-member-wrap:nth-child(even) .team-text {
+			width: 100%;
+			text-align: left;
+			left: 0;
+			top: -63px;
+			padding: 0 20px;
+			float: none;
+			clear: both;
+		}
+			.team-text .team-role, .team-member-wrap:nth-child(even) .team-text .team-role {
+				font-size: .75em;
+				margin-bottom: 3.25em;
+			}
 }
 
 @media screen and (max-width: 374px) {
