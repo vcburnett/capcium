@@ -23,6 +23,7 @@
 				<h1>The future is now</h1>
 				<h4>Our Facility</h4>
 			</div>
+			<div id="hero-gradient-top"></div>
 			<div id="hero-fluid-bottom"><img src="assets/images/hero-internal-bottom.svg"></div>
 		</section>
 

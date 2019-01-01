@@ -23,6 +23,7 @@
 				<h1>Transforming the Cannabis Industry</h1>
 				<h4>Partners</h4>
 			</div>
+			<div id="hero-gradient-top"></div>
 			<div id="hero-fluid-bottom"><img src="assets/images/hero-internal-bottom.svg"></div>
 		</section>
 
@@ -32,6 +33,7 @@
 		<section class="content" id="sec-first-content">
 			<div class="content-wrapper">
 				<div class="main-text-wrap">
+					<h3>Great Products from Great Partnerships</h3>
 					<p>We firmly believe that close collaborations with our customers is the key to providing high-quality products and first-class support. This is why we prefer to call our customers “Partners”. Together we bring amazing products to market.</p>
 				</div>
 

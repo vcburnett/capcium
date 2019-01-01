@@ -11,18 +11,19 @@
 				<input type="text" placeholder="Name">
 				<input type="email" placeholder="Email">
 				<input type="text" placeholder="Company">
-				<input type="text" placeholder="Country" class="half-input">
-				<input type="text" placeholder="Province" class="half-input">
-				<input type="text" placeholder="City" class="half-input">
-				<select placeholder="How can we help you?">
+				<div class="form-spacing"></div>
+				<label>How can we help you?</label>
+				<select>
 					<option value="Cannabis">Cannabis services</option>
 					<option value="Pharmaceutical">Pharmaceutical services</option>
 					<option value="Nutraceutical">Nutraceutical services</option>
 					<option value="Other">Other</option>
 				</select>
+				<div class="form-spacing"></div>
 				<textarea placeholder="Message" rows="4"></textarea>
+				<div class="form-spacing"></div>
 				<input type="Submit">
-				<a href="javascript:void(0);" class="contact-us-close-btn">Cancel</a>
+				<a href="javascript:void(0);" class="btn-contact-close">Cancel</a>
 			</form>
 		</div>
 		<div id="contact-us-content-right">
@@ -65,9 +66,9 @@
 			</div>
 			<nav id="main-menu"><ul>
 					<li><a href="who-we-are.php">Who We Are</a></li>
-					<li><a href="#sec-what-we-do" class="scroll">What We Do</a></li>
+					<li><a href="what-we-do.php" class="scroll">What We Do</a></li>
 					<li><a href="partners.php">Partners</a></li>
-					<li><a href="#sec-news" class="scroll">News</a></li>
+					<li><a href="news.php" class="scroll">News</a></li>
 					<li><a href="javascript:void(0);" class="contact-btn menu-item-scroll">Contact Us</a>
 				</ul>
 			</nav>

@@ -101,7 +101,7 @@
 								<img src="assets/images/-placeholders/icon-example.svg" alt="Formulation & Process Development">
 							</div>
 							<h3>Formulation & Process Development</h3>
-							<p>With a full range of services available, we ensure that your packaging reflects your brand and meets your customer’s needs.</p>
+							<p>With pharmaceutical expertise, we formulate and produce custom nutraceutical softgel capsules for the consumer and animal health markets.</p>
 						</div>
 						<div class="service">
 							<div class="icon">

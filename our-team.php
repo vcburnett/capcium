@@ -23,6 +23,7 @@
 				<h1>It's All About Experience</h1>
 				<h4>Our Team</h4>
 			</div>
+			<div id="hero-gradient-top"></div>
 			<div id="hero-fluid-bottom"><img src="assets/images/hero-internal-bottom.svg"></div>
 		</section>
 
@@ -43,7 +44,7 @@
 						<div class="team-text">
 							<h2>Mitch Greenspoon</h2>
 							<p class="team-role">Executive Chairman</p>
-							<p>Capcium received its site license from Health Canada to manufacture softgel capsules Mitch Greenspoon is the Chairman and Co-Founder of Capcium Inc. as well as the former President of GI Sportz Inc. (the largest global manufacturer and distributor of paintball related products). Prior to joining GI Sportz in 2011, Mitch was the Managing Director, Head of Quebec Investment Banking for Macquarie Canada and prior to that he was President and National Head of Investment Banking at Orion Securities Inc. and its predecessor, Yorkton Securities Inc. Mitch practiced law in Montreal from 1984 to 1993 where he specialized in securities law, mergers and acquisitions and corporate finance. Mitch holds civil and common law degrees (B.C.L and L.L.B.) from McGill University which he obtained in 1983.</p>
+							<p>Mitch Greenspoon is the Chairman and Co-Founder of Capcium Inc. as well as the former President of GI Sportz Inc. (the largest global manufacturer and distributor of paintball related products). Prior to joining GI Sportz in 2011, Mitch was the Managing Director, Head of Quebec Investment Banking for Macquarie Canada and prior to that he was President and National Head of Investment Banking at Orion Securities Inc. and its predecessor, Yorkton Securities Inc. Mitch practiced law in Montreal from 1984 to 1993 where he specialized in securities law, mergers and acquisitions and corporate finance. Mitch holds civil and common law degrees (B.C.L and L.L.B.) from McGill University which he obtained in 1983.</p>
 						</div>
 					</div>
 					<div class="team-member-wrap">

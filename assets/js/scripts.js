@@ -10,6 +10,8 @@ $( document ).ready(function() {
 
 	var body = $("body");
 
+	var fullWrap = $(".full-wrap");
+
 	var header = $("header");
 	var innerHeader = $(".inner-header");
 
@@ -20,6 +22,13 @@ $( document ).ready(function() {
 	var btnBurger = $("#btn-main-menu-mobile");
 	var MMWrapper = $("#main-menu-wrapper");
 	var MMlinks = $("#main-menu a");
+
+	var careerPostingButton = $(".career-job-title");
+	var careerSelected = $(".job-selected");
+	var applicationTitle;
+	var applicationButton = $(".career-job-description a");
+	var applicationForm = $("section#job-apply-lightbox");
+	var btnApplicationClose = $(".application-close-btn");
 
 	function menuOff() {
 		btnBurger.removeClass("btn-brg-clicked");
@@ -43,12 +52,12 @@ $( document ).ready(function() {
 		
 	}
 
-	// ON RESIZE
+	// ON RESIZE ------
 	browserWindow.on("resize", function() {
 		updateElements();
 	}).trigger("resize");
 
-	// ON SCROLL
+	// ON SCROLL ------
 	browserWindow.on("scroll", function() {
 
 		var scrolledAmount = $(this).scrollTop();
@@ -67,7 +76,8 @@ $( document ).ready(function() {
 		innerHeader.css("background-position", "center " + paralax + "px");
 	});
 
-	// ON CLICKS
+	// ON CLICKS ------
+	// Contact / Application Form trigger and close
 	btnContact.on("click", function() {
 		contactUs.fadeIn(400, function() {
 			body.addClass("no-scroll");
@@ -85,9 +95,15 @@ $( document ).ready(function() {
 					body.removeClass("no-scroll");
 				});
 			}
+			if (applicationForm.css("display") == "block") {
+				applicationForm.fadeOut(400, function() {
+					body.removeClass("no-scroll");
+				});
+			}
 		}
 	});
 
+	// Main Menu - Burger Version
 	btnBurger.on("click", function() {
 		if ($(this).hasClass("btn-brg-clicked")) {
 			$(this).removeClass("btn-brg-clicked");
@@ -103,6 +119,41 @@ $( document ).ready(function() {
 		if (btnBurger.hasClass("btn-brg-clicked")) {
 			menuOff()
 		}
+	});
+
+	// Career
+	// Career Description toggle
+	careerPostingButton.on("click", function() {
+		if ($(this).parent().hasClass("job-selected")) {
+			$(this).parent().removeClass("job-selected");
+		} else {
+			fullWrap.find(".job-selected").removeClass("job-selected");
+			$(this).parent().addClass("job-selected");
+			var scrollPos = $(this).offset();
+			var scrollTo = scrollPos.top - 70;
+			$('html, body').animate({
+				scrollTop:scrollTo},
+				1000,
+				"easeInOutCubic"
+			);
+		}
+	});
+	applicationButton.on("click", function() {
+		console.log("Application button clicked");
+		// Getting job title
+		applicationTitle = $(this).parent().parent().find("a.career-job-title").text();
+		console.log("The title of this post is: " + applicationTitle);
+
+		// Show Form
+		applicationForm.fadeIn(400, function() {
+			$("p#text-apply-title").html(applicationTitle);
+			body.addClass("no-scroll");
+		});
+	});
+	btnApplicationClose.on("click", function() {
+		applicationForm.fadeOut(400, function() {
+			body.removeClass("no-scroll");
+		});
 	});
 
 	// Scroll links

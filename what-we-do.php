@@ -23,6 +23,7 @@
 				<h1>Helping You Bring Your Products to Life</h1>
 				<h4>What We Do</h4>
 			</div>
+			<div id="hero-gradient-top"></div>
 			<div id="hero-fluid-bottom"><img src="assets/images/hero-internal-bottom.svg"></div>
 		</section>
 
@@ -44,7 +45,7 @@
 							<img src="assets/images/-placeholders/img-example-2.png" alt="Partner Example">
 						</div>
 						<div class="text text-left">
-							<h3>Experience</h3>
+							<h3>We have the experience</h3>
 							<ul class="internal-content-list">
 								<li>Leveraging 20+ years of encapsulation experience</li>
 								<li>Industry-first cannabis softgels</li>
@@ -114,7 +115,7 @@
 				<div class="main-text-wrap">
 					<h2>Why Softgels?</h2>
 					<p>With so many desirable characteristics and advantages over other dosing formats, Softgels are a popular choice for pharmaceutical, nutraceutical and cannabis brands as well as their end users.</p>
-					<a href="softgels.php" class="cta-3">Get to know our team</a>
+					<a href="softgels.php" class="cta-3">Learn more</a>
 				</div>
 			</div>
 		</section>

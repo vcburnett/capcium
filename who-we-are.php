@@ -23,6 +23,7 @@
 				<h1>We Are Capcium</h1>
 				<h4>Who We Are</h4>
 			</div>
+			<div id="hero-gradient-top"></div>
 			<div id="hero-fluid-bottom"><img src="assets/images/hero-internal-bottom.svg"></div>
 		</section>
 
@@ -83,9 +84,15 @@
 
 				<div id="internal-contact-us">
 					<div id="internal-contact-us-text">
-						<p>Whether you’ve got a new idea, or are ready to encapsulate your product, we’re here to help.</p>
+						<p>Let our team of experts help you bring your product to market with pharmaceutical precision and innovative design.</p>
 					</div>
 					<a href="javascript:void(0);" class="cta-1-white contact-btn">Contact Us</a>
+				</div>
+
+				<div class="main-text-wrap">
+					<div class="text-division"></div>
+					<h2>A Winning Formula</h2>
+					<p>Equipped with the best tools, Capcium provides consistently high-quality products for our customers.</p>
 				</div>
 
 				<div class="full-wrap">

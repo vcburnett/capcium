@@ -23,6 +23,7 @@
 				<h1>Bringing Pharmaceutical Precision to the Cannabis Industry</h1>
 				<h4>Our Mission</h4>
 			</div>
+			<div id="hero-gradient-top"></div>
 			<div id="hero-fluid-bottom"><img src="assets/images/hero-internal-bottom.svg"></div>
 		</section>
 

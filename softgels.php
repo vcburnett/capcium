@@ -23,6 +23,7 @@
 				<h1>The Next Big Thing In Cannabis Is Already Here</h1>
 				<h4>Softgel Capsules</h4>
 			</div>
+			<div id="hero-gradient-top"></div>
 			<div id="hero-fluid-bottom"><img src="assets/images/hero-internal-bottom.svg"></div>
 		</section>
 
