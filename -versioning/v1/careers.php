@@ -61,9 +61,9 @@
 				</div>
 
 				<div class="full-wrap">
-					<div class="tab-info">
-						<a href="javascript:void(0);" class="tab-button">Job Offering 1</a>
-						<div class="tab-content">
+					<div class="career-job-posting">
+						<a href="javascript:void(0);" class="career-job-title">Job Offering 1</a>
+						<div class="career-job-description">
 							<h4>Description</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</p>
 							<h4>About the job</h4>
@@ -85,9 +85,9 @@
 							<a href="javascript:void(0);" class="cta-3">Apply for this job</a>
 						</div>
 					</div>
-					<div class="tab-info">
-						<a href="javascript:void(0);" class="tab-button">Job Offering 2</a>
-						<div class="tab-content">
+					<div class="career-job-posting">
+						<a href="javascript:void(0);" class="career-job-title">Job Offering 2</a>
+						<div class="career-job-description">
 							<h4>Description</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</p>
 							<h4>About the job</h4>
@@ -109,9 +109,9 @@
 							<a href="javascript:void(0);" class="cta-3">Apply for this job</a>
 						</div>
 					</div>
-					<div class="tab-info">
-						<a href="javascript:void(0);" class="tab-button">Job Offering 3</a>
-						<div class="tab-content">
+					<div class="career-job-posting">
+						<a href="javascript:void(0);" class="career-job-title">Job Offering 3</a>
+						<div class="career-job-description">
 							<h4>Description</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</p>
 							<h4>About the job</h4>
@@ -133,9 +133,9 @@
 							<a href="javascript:void(0);" class="cta-3">Apply for this job</a>
 						</div>
 					</div>
-					<div class="tab-info">
-						<a href="javascript:void(0);" class="tab-button">Job Offering 4</a>
-						<div class="tab-content">
+					<div class="career-job-posting">
+						<a href="javascript:void(0);" class="career-job-title">Job Offering 4</a>
+						<div class="career-job-description">
 							<h4>Description</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</p>
 							<h4>About the job</h4>
@@ -157,9 +157,9 @@
 							<a href="javascript:void(0);" class="cta-3">Apply for this job</a>
 						</div>
 					</div>
-					<div class="tab-info">
-						<a href="javascript:void(0);" class="tab-button">Job Offering 5</a>
-						<div class="tab-content">
+					<div class="career-job-posting">
+						<a href="javascript:void(0);" class="career-job-title">Job Offering 5</a>
+						<div class="career-job-description">
 							<h4>Description</h4>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</p>
 							<h4>About the job</h4>

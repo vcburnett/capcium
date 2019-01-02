@@ -78,7 +78,7 @@
 						</div>
 					</div>
 					<div class="text-center">
-						<a href="javascript:void(0);" class="cta-3">View our mission</a>
+						<a href="our-mission.php" class="cta-3">View our mission</a>
 					</div>
 				</div>
 
@@ -113,7 +113,7 @@
 						<div class="text">
 							<h3>Facility</h3>
 							<p>Using state-of-the-art equipment and strict processes, we produce consistent, high-quality softgels.</p>
-							<a href="javascript:void(0);" class="cta-3">Check out our facility</a>
+							<a href="our-facility.php" class="cta-3">Check out our facility</a>
 						</div>
 					</div>
 					<div class="third-element">
@@ -123,7 +123,7 @@
 						<div class="text">
 							<h3>Key Partnerships</h3>
 							<p>We partner with industry leaders to produce the best value-add products and services.</p>
-							<a href="javascript:void(0);" class="cta-3">View our key partnerships</a>
+							<a href="partners.php" class="cta-3">View our key partnerships</a>
 						</div>
 					</div>
 				</div>

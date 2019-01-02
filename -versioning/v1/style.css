@@ -1223,19 +1223,6 @@ a#btn-down-internal {
 	color: #999;
 }
 
-/* What We Do */
-.tab-service-thumb {
-	width: 240px;
-	display: inline-block;
-	vertical-align: top;
-}
-.tab-service-content {
-	width: calc(100% - 270px);
-	display: inline-block;
-	vertical-align: top;
-	margin-left: 25px;
-}
-
 /* Regulatory Status */
 .text-label {
 	font-size: .75em;
@@ -1359,14 +1346,14 @@ a#btn-down-internal {
 }
 
 /* Careers */
-.tab-info {
+.career-job-posting {
 	text-align: left;
 	border-bottom: 1px solid #ddd;
 }
-	.tab-info:last-child {
+	.career-job-posting:last-child {
 		border-bottom: none;
 	}
-	a.tab-button {
+	a.career-job-title {
 		font-size: 1.25em;
 		color: #333;
 		font-weight: bold;
@@ -1374,26 +1361,26 @@ a#btn-down-internal {
 		display: block;
 		padding: 1em 20px;
 	}
-		a.tab-button:hover {
+		a.career-job-title:hover {
 			background-color: #eaeaea;
 		}
-	.tab-content {
+	.career-job-description {
 		overflow: hidden;
 		display: none;
 		padding: 0 20px;
 		-webkit-transition: .3s;
 		transition: .3s;
 	}
-		.tab-content h4 {
+		.career-job-description h4 {
 			margin-top: 2em;
 		}
-			.tab-content h4:first-child {
+			.career-job-description h4:first-child {
 				margin-top: 0;
 			}
-		.tab-content .cta-3 {
+		.career-job-description .cta-3 {
 			border: none;
 		}
-			.tab-content .cta-3:hover {
+			.career-job-description .cta-3:hover {
 				color: #fff;
 				background-color: #2b4e6a;
 			}
@@ -1405,7 +1392,7 @@ a#btn-down-internal {
 		.job-selected a:hover {
 			background-color: #2b4e6a;
 		}
-	.job-selected .tab-content {
+	.job-selected .career-job-description {
 		display: block;
 		padding: 1.5em 20px 3em;
 	}
@@ -1658,9 +1645,6 @@ section#error-404 {
 			.buttons-404 .cta-2 {
 				color: #333;
 			}
-				.buttons-404 .cta-2:hover {
-					color: #fff;
-				}
 
 /* --------------- */
 /* RESPONSIVE CODE */
@@ -2214,10 +2198,10 @@ section#error-404 {
 		}
 
 	/* Careers */
-	.tab-info a {
+	.career-job-posting a {
 		padding: 1em 10px;
 	}
-	.tab-content {
+	.career-job-description {
 		padding: 1.5em 10px 3em;
 	}
 
@@ -2228,16 +2212,6 @@ section#error-404 {
 		.content-404 {
 			padding-bottom: 2em;
 		}
-
-	/* What We Do */
-	.tab-service-thumb {
-		width: 100%;
-	}
-	.tab-service-content {
-		width: 100%;
-		margin-top: 1.5em;
-		margin-left: 0;
-	}
 }
 
 @media screen and (max-width: 540px) {

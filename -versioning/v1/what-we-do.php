@@ -95,107 +95,23 @@
 					<h2>Our Services</h2>
 					<p>We bring our unique skill set to every project. Our extensive experience, expertise, and commitment to the best customer service ensures that your product is in the best hands.</p>
 				</div>
-
 				<div class="full-wrap">
-					<div class="tab-info">
-						<a href="javascript:void(0);" class="tab-button">Cannabis</a>
-						<div class="tab-content">
-							<div class="tab-service-thumb">
-								<img src="assets/images/-placeholders/img-example-square.png" alt="Cannabis">
-							</div>
-							<div class="tab-service-content">
-								<h4>Cannabis</h4>
-								<p>Capcium is transforming the Cannabis industry by providing high-quality and high-value cannabis extract softgel encapsulation services to Canadian licensed producers. We are leveraging our decades of softgel encapsulation expertise to bring the best quality and most effective delivery system to our cannabis customers.</p>
-							</div>
-						</div>
+					<div class="services-tabs">
+
 					</div>
-					<div class="tab-info">
-						<a href="javascript:void(0);" class="tab-button">Pharmaceutical</a>
-						<div class="tab-content">
-							<div class="tab-service-thumb">
+					<div class="services-wrap">
+						<div class="service-content">
+							<div class="service-content-image">
 								<img src="assets/images/-placeholders/img-example-square.png" alt="Cannabis">
 							</div>
-							<div class="tab-service-content">
-								<h4>Pharmaceutical</h4>
-								<p>Capcium partners with pharmaceutical brands to support the production of their prescription (Rx) and Over-the-Counter products with our best-in-class softgel encapsulation. Our extensive expertise, state-of-the-art equipment and strict processes, ensure precision dosing with every capsule.</p>
-							</div>
-						</div>
-					</div>
-					<div class="tab-info">
-						<a href="javascript:void(0);" class="tab-button">Neutraceutical</a>
-						<div class="tab-content">
-							<div class="tab-service-thumb">
-								<img src="assets/images/-placeholders/img-example-square.png" alt="Cannabis">
-							</div>
-							<div class="tab-service-content">
-								<h4>Neutraceutical</h4>
-								<p>We use pharmaceutical grade equipment and standards to manufacture our nutraceutical softgel capsules in our cGMP certified facility. Our dedicated team of encapsulation experts will help you get your product to market quicker than the competition.</p>
-							</div>
-						</div>
-					</div>
-					<div class="tab-info">
-						<a href="javascript:void(0);" class="tab-button">Formulation & Development</a>
-						<div class="tab-content">
-							<div class="tab-service-thumb">
-								<img src="assets/images/-placeholders/img-example-square.png" alt="Cannabis">
-							</div>
-							<div class="tab-service-content">
-								<h4>Formulation & Development</h4>
-								<p>Using our pharmaceutical background and skill set, we work with our customers to develop, formulate and manufacture proprietary softgel capsules for the market.</p>
-							</div>
-						</div>
-					</div>
-					<div class="tab-info">
-						<a href="javascript:void(0);" class="tab-button">Commercial Batches</a>
-						<div class="tab-content">
-							<div class="tab-service-thumb">
-								<img src="assets/images/-placeholders/img-example-square.png" alt="Cannabis">
-							</div>
-							<div class="tab-service-content">
-								<h4>Commercial Batches</h4>
-								<p>From small-scale development to large-scale commercial production, Capcium is equipped to provide fully compliant and cost-effective encapsulation solutions. We also have the capacity to produce softgels with custom colour, flavor and branding as well as halal and kosher certification on a project by project basis.</p>
-							</div>
-						</div>
-					</div>
-					<div class="tab-info">
-						<a href="javascript:void(0);" class="tab-button">Packaging & Labeling</a>
-						<div class="tab-content">
-							<div class="tab-service-thumb">
-								<img src="assets/images/-placeholders/img-example-square.png" alt="Cannabis">
-							</div>
-							<div class="tab-service-content">
-								<h4>Packaging & Labeling</h4>
-								<p>Capcium offers its customers a full range of packaging and labeling services on a project by project basis.</p>
-							</div>
-						</div>
-					</div>
-					<div class="tab-info">
-						<a href="javascript:void(0);" class="tab-button">Quality & Compliance</a>
-						<div class="tab-content">
-							<div class="tab-service-thumb">
-								<img src="assets/images/-placeholders/img-example-square.png" alt="Cannabis">
-							</div>
-							<div class="tab-service-content">
-								<h4>Quality & Compliance</h4>
+							<div class="service-content-text">
+								<h2>Quality & Compliance</h2>
 								<p>Quality assurance is the cornerstone of Capcium's manufacturing practices. We are committed to ensuring and maintaining the highest standards of regulatory compliance while providing high-quality products to our customers. A comprehensive quality assurance program along with strict product regulations are in place to ensure that we meet these high-quality standards.</p>
 								<p>An internal audit program monitors compliance with applicable regulations, standards, and internal policies. We test and analyze all raw materials and finished products to determine potency, purity and quality. A Certificate of Analysis accompanies all manufactured lots and includes actual results and references to product specifications.</p>
 							</div>
 						</div>
 					</div>
-					<div class="tab-info">
-						<a href="javascript:void(0);" class="tab-button">On-Site Production</a>
-						<div class="tab-content">
-							<div class="tab-service-thumb">
-								<img src="assets/images/-placeholders/img-example-square.png" alt="Cannabis">
-							</div>
-							<div class="tab-service-content">
-								<h4>On-Site Production</h4>
-								<p>To deliver consistent, high-quality and high-values services to our discerning Canadian LP customers during the construction of the new Capcium facility, we are proud to offer on-site expertise and manufacturing capabilities to ensure that the highest quality cannabis softgel products are available to them and to the market.</p>
-							</div>
-						</div>
-					</div>
 				</div>
-
 				<div class="main-text-wrap">
 					<h2>Why Softgels?</h2>
 					<p>With so many desirable characteristics and advantages over other dosing formats, Softgels are a popular choice for pharmaceutical, nutraceutical and cannabis brands as well as their end users.</p>

@@ -28,7 +28,7 @@
 					<div class="content-404">
 						<p>Seems we have misplaced this content. Our bad. But here are some options for you:</p>
 						<div class="buttons-404">
-							<a href="" class="cta-1">Contact Us</a>
+							<a href="javascript:void(0);" class="cta-1 contact-btn">Contact Us</a>
 							<a href="index.php" class="cta-2">Back to the home page</a>
 						</div>
 					</div>

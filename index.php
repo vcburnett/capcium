@@ -25,7 +25,7 @@
 						<h1>Transforming the Cannabis Industry</h1>
 						<p>Softgel encapsulation is tricky to master, good thing we’ve done it for you. Capcium is the choice for cannabis encapsulation.</p>
 						<a href="javascript:void(0);" class="cta-1 contact-btn">Contact Us</a>
-						<a href="javascript:void(0);" class="cta-2">Learn more</a>
+						<a href="#sec-first-content" class="cta-2 scroll">Learn more</a>
 					</div>
 					<div class="hero-slide-right">
 						<img src="assets/images/-placeholders/hero-image.png" alt="Capsules for cannabis oil">
@@ -54,8 +54,8 @@
 					</div>
 					<div class="content-right">
 						<p>We bring our pharmaceutical discipline and experience to our licensed cannabis producer partners’ projects and have set our sights on becoming the leading provider of softgel encapsulation to this burgeoning industry.</p>
-						<a href="javascript:void(0);" class="cta-3">Discover Capcium</a>
-						<a href="javascript:void(0);" class="cta-3">What we do</a>
+						<a href="who-we-are.php" class="cta-3">Discover Capcium</a>
+						<a href="what-we-do.php" class="cta-3">What we do</a>
 					</div>
 				</div>
 			</div>
@@ -71,7 +71,7 @@
 					<h2>What We Do</h2>
 					<p class="subtitle">High-precision softgel encapsulation is our specialty. We take on this pivotal step in the process, so you can focus on what YOU do best.</p>
 					<p>Capcium is the number one choice, value-add manufacturer of softgel capsules for the cannabis, pharmaceutical, nutraceutical and cosmetic industries. Focused on providing consistently high-quality products, our partners trust us to help them bring their products to market on time and on budget.</p>
-					<a href="javascript:void(0);" class="cta-3">Learn more</a>
+					<a href="what-we-do.php" class="cta-3">Learn more</a>
 				</div>
 				<div class="right-thirds">
 					<div class="services-wrap">
@@ -162,7 +162,7 @@
 						<img src="assets/images/-placeholders/img-example-1.jpg" alt="Partner Name">
 					</div>
 				</div>
-				<a href="javascript:void(0);" class="cta-3">View our partners</a>
+				<a href="partners.php" class="cta-3">View our partners</a>
 			</div>
 		</section>
 
@@ -177,7 +177,7 @@
 						<p class="article-title">Aurora Cannabis Enters Into Global Softgel Business with Capcium Inc.</p>
 						<p class="article-date">October 12,2018</p>
 						<p>Donec pulvinar mauris sapien, id dictum eros commodo sit amet. Nunc gravida turpis sed iaculis elementum.</p>
-						<a href="javascript:void(0);">Read more</a>
+						<a href="article.php">Read more</a>
 					</div>
 				</div>
 				<div class="article-container">
@@ -188,7 +188,7 @@
 						<p class="article-title">Aurora Cannabis Enters Into Global Softgel Business with Capcium Inc.</p>
 						<p class="article-date">October 12,2018</p>
 						<p>Donec pulvinar mauris sapien, id dictum eros commodo sit amet. Nunc gravida turpis sed iaculis elementum.</p>
-						<a href="javascript:void(0);">Read more</a>
+						<a href="article.php">Read more</a>
 					</div>
 				</div>
 				<div class="article-container">
@@ -199,7 +199,7 @@
 						<p class="article-title">Aurora Cannabis Enters Into Global Softgel Business with Capcium Inc.</p>
 						<p class="article-date">October 12,2018</p>
 						<p>Donec pulvinar mauris sapien, id dictum eros commodo sit amet. Nunc gravida turpis sed iaculis elementum.</p>
-						<a href="javascript:void(0);">Read more</a>
+						<a href="article.php">Read more</a>
 					</div>
 				</div>
 				<div class="article-container">
@@ -210,14 +210,14 @@
 						<p class="article-title">Aurora Cannabis Enters Into Global Softgel Business with Capcium Inc.</p>
 						<p class="article-date">October 12,2018</p>
 						<p>Donec pulvinar mauris sapien, id dictum eros commodo sit amet. Nunc gravida turpis sed iaculis elementum.</p>
-						<a href="javascript:void(0);">Read more</a>
+						<a href="article.php">Read more</a>
 					</div>
 				</div>
 			</div>
 			<div class="content-wrapper" id="news-metas">
 				<h2>News & Events</h2>
 				<p class="mobile-only">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</p>
-				<a href="javascript:void(0);" class="cta-2">View all articles</a>
+				<a href="news.php" class="cta-2">View all articles</a>
 			</div>
 		</section>
 	</div>

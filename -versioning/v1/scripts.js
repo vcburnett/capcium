@@ -23,10 +23,10 @@ $( document ).ready(function() {
 	var MMWrapper = $("#main-menu-wrapper");
 	var MMlinks = $("#main-menu a");
 
-	var tabButton = $(".tab-button");
+	var careerPostingButton = $(".career-job-title");
 	var careerSelected = $(".job-selected");
 	var applicationTitle;
-	var applicationButton = $(".tab-content a");
+	var applicationButton = $(".career-job-description a");
 	var applicationForm = $("section#job-apply-lightbox");
 	var btnApplicationClose = $(".application-close-btn");
 
@@ -123,7 +123,7 @@ $( document ).ready(function() {
 
 	// Career
 	// Career Description toggle
-	tabButton.on("click", function() {
+	careerPostingButton.on("click", function() {
 		if ($(this).parent().hasClass("job-selected")) {
 			$(this).parent().removeClass("job-selected");
 		} else {
@@ -141,7 +141,7 @@ $( document ).ready(function() {
 	applicationButton.on("click", function() {
 		console.log("Application button clicked");
 		// Getting job title
-		applicationTitle = $(this).parent().parent().find("a.tab-button").text();
+		applicationTitle = $(this).parent().parent().find("a.career-job-title").text();
 		console.log("The title of this post is: " + applicationTitle);
 
 		// Show Form
