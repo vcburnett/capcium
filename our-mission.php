@@ -79,7 +79,7 @@
 				</div>
 
 				<div class="main-text-wrap">
-					<h2>The team</h2>
+					<h2>The Team</h2>
 					<p>We are dedicated to providing our customers with best-in-class service as our team of experts help bring their products to market with speed and precision every time.</p>
 					<a href="our-team.php" class="cta-3">Get to know our team</a>
 				</div>

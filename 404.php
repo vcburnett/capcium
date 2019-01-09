@@ -26,7 +26,7 @@
 						<img src="assets/images/error-404.png" alt="Error 404 - Page not found">
 					</div>
 					<div class="content-404">
-						<p>Seems we have misplaced this content. Our bad. But here are some options for you:</p>
+						<p>We can’t find the page you’re looking for. Please select one of the options below.</p>
 						<div class="buttons-404">
 							<a href="javascript:void(0);" class="cta-1 contact-btn">Contact Us</a>
 							<a href="index.php" class="cta-2">Back to the home page</a>

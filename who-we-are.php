@@ -38,7 +38,7 @@
 					<p>Softgel encapsulation is one of our core specialties. The encapsulation process is quite difficult to master, however, with our extensive experience you can rest assured that your product is in the best hands. Our team of experts will help you bring your product to market with pharmaceutical precision and innovative design.</p>
 					<div class="text-division"></div>
 					<h2>The Keys to Our Success</h2>
-					<p>Our goal is to transform the cannabis industry by owing the middle with:</p>
+					<p>Our goal is to transform the cannabis industry by owning the middle with:</p>
 				</div>
 				<div class="full-wrap">
 					<div class="quarter-element">
@@ -84,7 +84,7 @@
 
 				<div id="internal-contact-us">
 					<div id="internal-contact-us-text">
-						<p>Let our team of experts help you bring your product to market with pharmaceutical precision and innovative design.</p>
+						<p>Let our team of experts answer your questions and help you get your project off the ground.</p>
 					</div>
 					<a href="javascript:void(0);" class="cta-1-white contact-btn">Contact Us</a>
 				</div>
@@ -149,7 +149,7 @@
 			</div>
 			<div class="content-wrapper">
 				<div class="main-text-wrap">
-					<h2>Our team</h2>
+					<h2>Our Team</h2>
 					<p>Experience is the key to finding the right solution</p>
 				</div>
 				<div class="full-wrap">

@@ -23,7 +23,7 @@
 			</div>
 			<p class="text-apply-for">Apply for</p>
 			<p id="text-apply-title">Job title</p>
-			<p class="text-apply-instruction">Fill out the fields below to apply for this opportunity. Due to the volume of applications, we will only apply the candidates that best fit the requirements.</p>
+			<p class="text-apply-instruction">To apply for this position, please fill out the form below. Due to the volume of applications that we receive, only qualified candidates will be contacted.</p>
 			<form id="application-form">
 				<input type="text" placeholder="Name">
 				<input type="email" placeholder="Email">
@@ -43,7 +43,7 @@
 		<!-- HERO -->
 		<section class="inner-header" id="page-careers">
 			<div class="inner-header-content">
-				<h1>Be part of our team</h1>
+				<h1>Be Part of Our Team</h1>
 				<h4>Careers</h4>
 			</div>
 			<div id="hero-gradient-top"></div>

@@ -34,8 +34,6 @@
 				St-Laurent, QC - Canada H4S 2B5</p>
 				<p><span class="contact-info-title">Phone</span>+1 514 339-5986<br>
 					<span class="contact-info-title">Fax</span>+1 514 339-1009</p>
-				<p><strong>Office Hours</strong><br>
-				Mon - Fri | 9am - 5pm</p>
 				<p><span class="contact-info-title">Email</span><a href="">info@capcium.com</a></p>
 			</div>
 		</div>

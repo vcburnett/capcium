@@ -44,7 +44,7 @@
 						<div class="image-wrap">
 							<img src="assets/images/-placeholders/img-example-2.png" alt="Partner Example">
 						</div>
-						<div class="text text-left">
+						<div class="text-2 text-left">
 							<h3>We have the experience</h3>
 							<ul class="internal-content-list">
 								<li>Leveraging 20+ years of encapsulation experience</li>
@@ -57,7 +57,7 @@
 						<div class="image-wrap">
 							<img src="assets/images/-placeholders/img-example-2.png" alt="Partner Example">
 						</div>
-						<div class="text text-left">
+						<div class="text-2 text-left">
 							<h3>We have the team</h3>
 							<ul class="internal-content-list">
 								<li>Dedicated management team</li>
@@ -69,7 +69,7 @@
 						<div class="image-wrap">
 							<img src="assets/images/-placeholders/img-example-2.png" alt="Partner Example">
 						</div>
-						<div class="text text-left">
+						<div class="text-2 text-left">
 							<h3>We have the infrastructure</h3>
 							<ul class="internal-content-list">
 								<li>State-of-the-art facility</li>
@@ -82,7 +82,7 @@
 						<div class="image-wrap">
 							<img src="assets/images/-placeholders/img-example-2.png" alt="Partner Example">
 						</div>
-						<div class="text text-left">
+						<div class="text-2 text-left">
 							<h3>We give you peace of mind</h3>
 							<ul class="internal-content-list">
 								<li>We take the worries of this pivotal step of the production process off of your hands</li>
@@ -122,13 +122,13 @@
 						</div>
 					</div>
 					<div class="tab-info">
-						<a href="javascript:void(0);" class="tab-button">Neutraceutical</a>
+						<a href="javascript:void(0);" class="tab-button">Nutraceutical</a>
 						<div class="tab-content">
 							<div class="tab-service-thumb">
 								<img src="assets/images/-placeholders/img-example-square.png" alt="Cannabis">
 							</div>
 							<div class="tab-service-content">
-								<h4>Neutraceutical</h4>
+								<h4>Nutraceutical</h4>
 								<p>We use pharmaceutical grade equipment and standards to manufacture our nutraceutical softgel capsules in our cGMP certified facility. Our dedicated team of encapsulation experts will help you get your product to market quicker than the competition.</p>
 							</div>
 						</div>

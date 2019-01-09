@@ -39,7 +39,7 @@
 				<div class="full-wrap">
 					<div class="team-member-wrap">
 						<div class="team-profile-pic">
-							<img src="assets/images/-placeholders/profile-picture-example.png" alt="Mitch Greenspoon">
+							<img src="assets/images/profile-mitch.png" alt="Mitch Greenspoon">
 						</div>
 						<div class="team-text">
 							<h2>Mitch Greenspoon</h2>
@@ -49,7 +49,7 @@
 					</div>
 					<div class="team-member-wrap">
 						<div class="team-profile-pic">
-							<img src="assets/images/-placeholders/profile-picture-example.png" alt="Sylvain Duvernay">
+							<img src="assets/images/profile-sylvain.png" alt="Sylvain Duvernay">
 						</div>
 						<div class="team-text">
 							<h2>Sylvain Duvernay</h2>
@@ -59,7 +59,7 @@
 					</div>
 					<div class="team-member-wrap">
 						<div class="team-profile-pic">
-							<img src="assets/images/-placeholders/profile-picture-example.png" alt="Nicolas Giroux">
+							<img src="assets/images/profile-nicolas.png" alt="Nicolas Giroux">
 						</div>
 						<div class="team-text">
 							<h2>Nicolas Giroux</h2>
@@ -69,7 +69,7 @@
 					</div>
 					<div class="team-member-wrap">
 						<div class="team-profile-pic">
-							<img src="assets/images/-placeholders/profile-picture-example.png" alt="Alexander MacAngus">
+							<img src="assets/images/profile-alexander.png" alt="Alexander MacAngus">
 						</div>
 						<div class="team-text">
 							<h2>Alexander MacAngus</h2>

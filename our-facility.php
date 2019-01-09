@@ -53,7 +53,7 @@
 						</div>
 						<div class="facility-text">
 							<h2>Co-Location of Encapsulation Equipment for Cannabis Product Production</h2>
-							<p>Until our new, state-of-the-art Pointe-Claire facility is fully operational (currently expected to end 2019), Capcium will produce softgel capsules for Licensed Producers at a premise licensed under the Access to Cannabis for Medical Purposes Regulations (ACMPR). To date, Capcium has one fully operational encapsulation line at Aurora’s Montreal-based facility (“Aurora Vie”) and is in the process of completing the installation of additional encapsulation lines at other sites licensed under the ACMPR to service further cannabis customers’ needs.</p>
+							<p>Until our new, state-of-the-art Pointe-Claire facility is fully operational (currently expected in late 2019), Capcium will produce softgel capsules for Licensed Producers at a premises licensed under the Access to Cannabis for Medical Purposes Regulations (ACMPR). To date, Capcium has one fully operational encapsulation line at Aurora’s Montreal-based facility (“Aurora Vie”) and is in the process of completing the installation of additional encapsulation lines at other sites licensed under the ACMPR to service further cannabis customers’ needs.</p>
 						</div>
 					</div>
 				</div>
@@ -65,7 +65,7 @@
 						</div>
 						<div class="facility-text-alt">
 							<h2>All Production Under One Roof</h2>
-							<p>Phase II of Capcium’s commercial plan will be to produce all cannabis, pharmaceutical and nutraceutical products at our new facility in Pointe-Claire, Quebec. Construction of the Pointe-Claire Facility is well advanced and is expected to be completed in late 2019.</p>
+							<p>Phase II of Capcium’s commercial plan will be to produce all cannabis, pharmaceutical and nutraceutical products at our new facility in Pointe-Claire, Quebec. Construction of the Pointe-Claire facility is well advanced and is expected to be completed in late 2019.</p>
 							<p>The new Facility will be the first of its kind, state-of-the-art facility, designed specifically for the development and manufacture of cannabis products. The Facility will be pharmaceutical grade and compliant with all major cGMP pharmaceutical standards, including Health Canada, FDA and EMEA.</p>
 						</div>
 					</div>

@@ -33,12 +33,13 @@
 		<section class="content" id="sec-first-content">
 			<div class="content-wrapper">
 				<div class="main-text-wrap">
-					<p>Softgels are not only the best option for ingredient stability and enhanced bioavailability, they also possess multiple advantages that help in producing a precision dosing method that will be the preference of patients and other users. With customizable shapes, colours and even flavours and scents, Softgels help your brand stand out while being more appealing to the end user.</p>
+					<p>Softgels are not only the best option for ingredient stability and enhanced bioavailability, they also possess multiple advantages that help in producing a precision dosing method that will be the preference of patients and other users. With customizable shapes, colours and even flavours and scents, softgels help your brand stand out while being more appealing to the end user.</p>
 					<p>Already an increasingly popular dosing method in the prescription and over-the-counter markets, softgel capsules also represent one of the best understood and simplest ways to ingest cannabis oils. With the modern consumers’ preference for more convenient and discreet dosing methods as well as the waning popularity of smoking, softgels present the perfect solution.</p>
 				</div>
 
 				<div class="full-wrap">
-					<div class="quarter-element">
+					<h2>Preferred by Brands and Patients</h2>
+					<div class="sixth-element">
 						<div class="icon">
 							<img src="assets/images/-placeholders/icon-example.svg" alt="Precise dosing">
 						</div>
@@ -46,7 +47,7 @@
 							<h3>Precise dosing</h3>
 						</div>
 					</div>
-					<div class="quarter-element">
+					<div class="sixth-element">
 						<div class="icon">
 							<img src="assets/images/-placeholders/icon-example.svg" alt="Precise dosing">
 						</div>
@@ -54,7 +55,7 @@
 							<h3>Easy to swallow</h3>
 						</div>
 					</div>
-					<div class="quarter-element">
+					<div class="sixth-element">
 						<div class="icon">
 							<img src="assets/images/-placeholders/icon-example.svg" alt="Precise dosing">
 						</div>
@@ -62,7 +63,7 @@
 							<h3>Rapid absorption</h3>
 						</div>
 					</div>
-					<div class="quarter-element">
+					<div class="sixth-element">
 						<div class="icon">
 							<img src="assets/images/-placeholders/icon-example.svg" alt="Precise dosing">
 						</div>
@@ -70,28 +71,20 @@
 							<h3>Tailored appearance, flavour and colour</h3>
 						</div>
 					</div>
-					<div class="quarter-element">
+					<div class="sixth-element">
 						<div class="icon">
 							<img src="assets/images/-placeholders/icon-example.svg" alt="Precise dosing">
 						</div>
 						<div class="text">
-							<h3>Ability to remove or eliminate unpleasant odor or taste</h3>
+							<h3>Convenient & discreet</h3>
 						</div>
 					</div>
-					<div class="quarter-element">
+					<div class="sixth-element">
 						<div class="icon">
 							<img src="assets/images/-placeholders/icon-example.svg" alt="Precise dosing">
 						</div>
 						<div class="text">
-							<h3>Familiarity with softgel by consumer</h3>
-						</div>
-					</div>
-					<div class="quarter-element">
-						<div class="icon">
-							<img src="assets/images/-placeholders/icon-example.svg" alt="Precise dosing">
-						</div>
-						<div class="text">
-							<h3>Improved patient adherence with dosing regiments</h3>
+							<h3>Preferred by patients & other users</h3>
 						</div>
 					</div>
 				</div>
