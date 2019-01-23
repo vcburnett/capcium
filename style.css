@@ -88,6 +88,8 @@ img {
 	width: 100%;
 	height: auto;
 	display: block;
+	border-radius: 4px;
+	overflow: hidden;
 }
 a {
 	-webkit-transition: .2s;
@@ -169,7 +171,7 @@ h5 {
 	color: #666;
 	text-transform: uppercase;
 	text-align: center;
-	margin: 4em auto 1em;
+	margin: 4em auto 3em;
 }
 	h5::before, h5::after {
 		content: "";
@@ -1331,6 +1333,20 @@ a#btn-down-internal {
 		clear: left;
 	}
 
+.column-left {
+	text-align: left;
+	width: 33%;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5%;
+}
+.column-right {
+	text-align: left;
+	width: 60%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
 /* Softgels */
 .softgel-image {
 	width: 100%;
@@ -1831,6 +1847,16 @@ section#error-404 {
 	.news-thumb, .news-content {
 		vertical-align: top;
 	}
+
+	.column-left {
+		width: 45%;
+		vertical-align: top;
+		margin-right: 5%;
+	}
+	.column-right {
+		width: 49%;
+		vertical-align: top;
+	}
 }
 
 @media screen and (max-width: 759px) {
@@ -2308,6 +2334,18 @@ section#error-404 {
 		margin-top: 1.5em;
 		margin-left: 0;
 	}
+
+	.column-left, .column-right {
+		width: 100%;
+		margin-right: 0;
+		display: block;
+		padding: 10px;
+	}
+		.column-left {
+			background-color: #fff;
+			border-radius: 5px;
+			overflow: hidden;
+		}
 }
 
 @media screen and (max-width: 540px) {
