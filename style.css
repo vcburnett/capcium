@@ -968,6 +968,16 @@ a#btn-down {
 			.article-content {
 				padding: 5px;
 			}
+				.article-title {
+					color: #1867a4;
+					font-weight: bold;
+				}
+				.article-date {
+					color: #999;
+					font-size: .7em;
+					line-height: 1.15em;
+					margin-bottom: 1em;
+				}
 	#sec-news h2 {
 		width: calc(100% - 214px);
 		color: #7bc0f6;
@@ -1106,6 +1116,9 @@ a#btn-down {
 	padding: 2.1em 0 1.4em;
 	display: block;
 }
+	#ft-copyright a {
+		margin: 0 .3em;
+	}
 
 /* Inner pages */
 
